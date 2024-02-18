@@ -1,18 +1,19 @@
-
 .header {
     padding-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: var(--box-shadow);
-    
-   
+
+
     background: var(--main-color);
 }
-.fix{
+
+.fix {
     top: 0;
     position: sticky;
 }
+
 .header .logo {
     font-size: 2rem;
     font-weight: bolder;
@@ -20,11 +21,11 @@
     text-transform: capitalize;
 }
 
-.header .subdomain{
+.header .subdomain {
     font-size: 1.3rem;
     color: var(--black);
 }
 
-.header .subdomain .interdomain{
+.header .subdomain .interdomain {
     margin-right: 4rem;
 }
