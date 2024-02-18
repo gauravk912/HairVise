@@ -10,7 +10,7 @@
     --dark-bg: rgba(0, 0, 0, .7);
     --border: .1rem solid #aaa;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-   
+
 }
 
 * {
@@ -42,30 +42,30 @@ html::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
 }
 
-section{
+section {
     padding: 5rem 7%;
 }
 
-.heading{
-   text-align: center;
-   color:var(--primary-color);
-   text-transform: capitalize;
-   margin-bottom: 2rem;
-   font-size: 3rem;
-   margin-top: 4rem;
+.heading {
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-top: 4rem;
 
 }
- 
-.btn{
-   margin-top: 1rem;
-   display: inline-block;
-   background: var(--primary-color);
-   color:var(--white);
-   -size: 2rem;
-   cursor: pointer;
-   padding:1rem 3rem;
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--white);
+    -size: 2rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
 }
- 
-.btn:hover{
+
+.btn:hover {
     background: var(--hover);
 }
