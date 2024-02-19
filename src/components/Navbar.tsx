@@ -26,7 +26,7 @@ export default function Navbar() {
                         <Link className="nav-item nav-link active element" to="/">
                             Home
                         </Link>
-                        <Link  className="nav-item nav-link element" to="/">
+                        <Link  className="nav-item nav-link element" to="/quiz">
                             Take A Quiz  
                         </Link>
                         <Link className="nav-item nav-link element" to="/">
